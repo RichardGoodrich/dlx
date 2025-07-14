@@ -1,0 +1,73 @@
+Mon July 14, 2025
+
+I am building and running this on the following OS:
+    MX-23.6_x64 Libretto May 19  2024 base: Debian GNU/Linux 12 (bookworm)
+
+I installed JetBrains Toolbox and from there use PyCharm
+I have also installed the "uv" environment from:
+  https://docs.astral.sh/uv/pip/environments/
+
+My command prompt is: ">"
+
+I had the following Python already installed.
+>python3 --version
+Python 3.11.2
+
+Running from the terminal dir that contains "dlx.py" should yield the following menu:
+
+>python3 dlx.py
+running /home/biG/PycharmProjects/DLX/src/dlx.py
+
+            Ali Asaf's version of Donald Knuth's
+            Dancing Links (c) 2010
+            (ali.assaf.mail@gmail.com)
+            https://www.cs.mcgill.ca/~aassaf9/python/algorithm_x.html
+            ---------------------------------------------------------
+            Not restricted to Sudoku Puzzles
+            with just one solution
+            ---------------------------------------------------------
+            Prints solutions as 81-char string
+
+            Enter number < 100 for max solutions
+            (else defaults to a single solution)
+                      or
+            Enter the usual 81-char Sudoku string
+            (with zeros or periods for unspecified)
+                      or
+            'd' for a default puzzle
+                      or
+            'p8' for a puzzle with 8 solutions
+                      or
+            'q' to Quit
+
+            Anything else prints this main MSG
+
+Enter:
+
+Here are some examples.
+
+Enter: d
+The Puzzle entered:
+..........12.34567.345.6182..1.582.6..86....1.2...7.5...37.5.28.8..6.7..2.7.83615
+
+576821349812934567934576182741358296358692471629147853463715928185269734297483615
+
+Enter:
+
+
+Enter: ..........12.34567.345.6182..1.582.6..86....1.2...7.5...37.5.28.8..6.7..2.7.83615
+The Puzzle entered:
+..........12.34567.345.6182..1.582.6..86....1.2...7.5...37.5.28.8..6.7..2.7.83615
+
+576821349812934567934576182741358296358692471629147853463715928185269734297483615
+Enter:
+
+Enter: q
+>
+
+If you edit the dlx.py file you can create your own 81-char default sting
+
+DEFAULT81 = \
+     '..........12.34567.345.6182..1.582.6..86....1.2...7.5...37.5.28.8..6.7..2.7.83615'
+    #'.8..749.5..9.382.44...9268...74.58..84.917.6...18.34....83417.67362591481.4786.9.'
+
